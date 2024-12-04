@@ -81,16 +81,16 @@ const Header = () => {
 
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
 
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-lg/6 font-medium text-gray-900">
             Cafe Menu
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-lg/6 font-medium text-gray-900">
             About Us
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-lg/6 font-medium text-gray-900">
             Find Us
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#" className="text-lg/6 font-medium text-gray-900">
             Alowishus Catering
           </a>
           
@@ -101,10 +101,11 @@ const Header = () => {
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
               <ShoppingBagIcon 
               width={35} 
-              className="hover:cursor-pointer bg-white py-2 rounded-full shadow-lg transform hover:scale-105 transition-all"
+              height={35} 
+              className="hover:cursor-pointer bg-gray-50 hover:bg-gray-100 py-2 rounded-full shadow-lg shadow-gray-300 transform hover:scale-105 transition-all"
             />
           </a>
-          <Button className="bg-gray-900 text-white py-3 rounded-md shadow-lg transform hover:scale-105 transition-all">
+          <Button className="bg-gray-900 text-white p-3 rounded-md shadow-lg transform hover:scale-105 transition-all">
            Buy Gift Voucher
           </Button>
         </div>
