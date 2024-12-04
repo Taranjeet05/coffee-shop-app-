@@ -48,7 +48,8 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white container">
+    <div className="bg-gray-100"> 
+    <header className="container">
       <nav aria-label="Global" 
       className="mx-auto flex items-center justify-between py-6">
        
@@ -190,6 +191,7 @@ const Header = () => {
       {/*::::::::::::::::::::::::::::::::::::::*/}
 
     </header>
+    </div>
   )
 }
 
