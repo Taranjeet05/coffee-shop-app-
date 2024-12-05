@@ -4,6 +4,7 @@ import Header from "./_components/Header";
 import InstantCoffee from "./_components/InstantCoffee";
 import OrderCoffee from "./_components/OrderCoffee";
 import SellingCoffee from "./_components/SellingCoffee";
+import Testimonial from "./_components/Testimonial";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <OrderCoffee />
         <SellingCoffee />
         <InstantCoffee />
+        <Testimonial />
       </>
   );
 }
