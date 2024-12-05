@@ -12,8 +12,8 @@ const Explore = () => {
           
           <div className="col-start-2 col-span-4">
             <h1 className="text-5xl font-bold">Explore our Alowishus</h1>
-            <p className="py-2 text-gray-600 text-lg">Hello Thank you for visiting our store. Lorem, ipsum dolor sit amet 
-              consectetur aosam?</p>
+            <p className="py-4 w-2/4 mx-auto text-gray-600 text-lg">Hello Thank you for visiting our store. Lorem, ipsum dolor sit amet 
+              consm?</p>
           </div>
         
         </div>
