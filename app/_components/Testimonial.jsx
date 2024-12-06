@@ -18,7 +18,42 @@ import Image from 'next/image';
 const Testimonial = () => {
   return (
     <>
-    <div className="container"> 
+    <div className="container py-10"> 
+
+      {/******************************* */}
+      <div className="grid grid-cols-6 text-center md:py-10">
+          
+          <div className="col-start-2 col-span-4">
+            <h1 className="text-5xl font-bold">Client Testimonials</h1>
+            <p className="py-4 w-2/4 mx-auto text-gray-600 text-lg">Hello Thank you for visiting our store. Lorem, ipsum dolor sit amet 
+              consm?</p>
+
+              {/******************************** */}
+
+              <div className="mt-4 flex items-center justify-center gap-x-6">
+                <div className="hidden sm:block -space-x-2 overflow-hidden">
+                    <img className="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="" />
+                    <img className="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="" />
+                    <img className="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.25&amp;w=256&amp;h=256&amp;q=80" alt="" />
+                    <img className="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="" />
+                    <img className="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="" />
+                </div>
+                <div className="boder-none sm:border-l-2 border-black sm:pl-8">
+                    <div className="flex justify-center sm:justify-start">
+                        <h3 className="text-2xl font-semibold mr-2">4.6</h3>
+
+                        <img className="w-5" src="https://www.svgrepo.com/show/513354/star.svg" alt="stars-icon" />
+                    </div>
+                    <div>
+                        <h3 className="text-sm">Rated by 25k on google.</h3>
+                    </div>
+                </div>
+                        </div>
+          </div>
+        
+        </div>
+
+      {/******************************* */}
      <Swiper
         slidesPerView={3}
         spaceBetween={30}
@@ -31,7 +66,7 @@ const Testimonial = () => {
       >
         
         <SwiperSlide>
-            <div className=" rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-5">
+            <div className="rounded-md bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-7">
 
             <div className="bg-gray-200">
               <Image
@@ -43,8 +78,8 @@ const Testimonial = () => {
                 />
             </div>
             
-              <div className="p-8">
-                <div className="grid grid-cols-2 items-center"> 
+              <div className="p-7">
+                <div className="grid grid-cols-2 items-center gap-3"> 
 
                   <h1 className="inline-flex items-center text-xl font-semibold text-gray-900 dark:text-gray-100">
                       About Macbook 
@@ -70,7 +105,7 @@ const Testimonial = () => {
         {/************************************** */}
 
         <SwiperSlide>
-            <div className=" rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-5">
+            <div className="rounded-md bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-7">
 
             <div className="bg-gray-200">
               <Image
@@ -82,8 +117,8 @@ const Testimonial = () => {
                 />
             </div>
             
-              <div className="p-8">
-                <div className="grid grid-cols-2 items-center"> 
+              <div className="p-7">
+                <div className="grid grid-cols-2 items-center gap-3"> 
 
                   <h1 className="inline-flex items-center text-xl font-semibold text-gray-900 dark:text-gray-100">
                       About Macbook 
@@ -109,7 +144,7 @@ const Testimonial = () => {
         {/************************************** */}
 
         <SwiperSlide>
-            <div className=" rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-5">
+            <div className="rounded-md bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-7">
 
             <div className="bg-gray-200">
               <Image
@@ -121,8 +156,8 @@ const Testimonial = () => {
                 />
             </div>
             
-              <div className="p-8">
-                <div className="grid grid-cols-2 items-center"> 
+              <div className="p-7">
+                <div className="grid grid-cols-2 items-center gap-3"> 
 
                   <h1 className="inline-flex items-center text-xl font-semibold text-gray-900 dark:text-gray-100">
                       About Macbook 
@@ -148,7 +183,7 @@ const Testimonial = () => {
          {/************************************ */}
 
          <SwiperSlide>
-            <div className=" rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-5">
+            <div className="rounded-md bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-7">
 
             <div className="bg-gray-200">
               <Image
@@ -160,8 +195,8 @@ const Testimonial = () => {
                 />
             </div>
             
-              <div className="p-8">
-                <div className="grid grid-cols-2 items-center"> 
+              <div className="p-7">
+                <div className="grid grid-cols-2 items-center gap-3"> 
 
                   <h1 className="inline-flex items-center text-xl font-semibold text-gray-900 dark:text-gray-100">
                       About Macbook 
@@ -191,3 +226,5 @@ const Testimonial = () => {
 }
 
 export default Testimonial
+
+//tailwindflex.com/@erik-hyatt/product-rating-section
