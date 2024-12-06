@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 const SellingCoffee = () => {
   return (
     <>
-     <div className="bg-gray-50 md:py-20">
+     <div className="md:py-20">
       {/************************************* */}
       <div className="grid grid-cols-6 text-center md:pt-10 md:pb-52">
           
@@ -17,7 +17,7 @@ const SellingCoffee = () => {
         
         </div>
       {/************************************* */}
-      <div className="container">
+      <div className="container md:pb-10">
         <div className="grid grid-cols-3 gap-16 w-11/12 mx-auto">
 
         {/******************************************* */}

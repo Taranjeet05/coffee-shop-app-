@@ -5,7 +5,7 @@ import Image from "next/image"
 const Explore = () => {
   return (
     <>
-    <div className="bg-gray-50">
+    <div className="">
       <div className="conatiiner py-20 ">
         {/**::::::::::::::::::::::::::::::::::::::::::::::: */}
         <div className="grid grid-cols-6 text-center md:py-16">

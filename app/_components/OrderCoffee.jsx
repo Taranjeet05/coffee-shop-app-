@@ -5,7 +5,7 @@ Button
 const OrderCoffee = () => {
   return (
     <>
-    <div className="bg-gray-50 md:py-16">
+    <div className="bg-gray-50 md:py-16 md:my-10">
       <div className="conatiner">
         <div className="grid grid-cols-2 gap-20 items-center">
           <div className="">
