@@ -35,10 +35,10 @@ const Testimonial = () => {
                 <img className="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="" />
               </div>
               <div className="boder-none sm:border-l-2 border-black sm:pl-8">
-                <div className="flex justify-center sm:justify-start">
+                <div className="flex justify-center sm:justify-start items-center">
                   <h3 className="text-2xl font-semibold mr-2">4.6</h3>
-                  <img className="w-5" src="https://www.svgrepo.com/show/513354/star.svg" alt="stars-icon" />
-                </div>
+                  <Star width={20} className='text-yellow-400' />
+                  </div>
                 <div>
                   <h3 className="text-sm">Rated by 25k on google.</h3>
                 </div>
