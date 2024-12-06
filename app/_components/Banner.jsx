@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 
 //import './styles.css';
 
-import { Autoplay, Pagination,} from 'swiper/modules';
+import { Autoplay,} from 'swiper/modules';
 import Image from 'next/image';
 import { Button } from "@/components/ui/button"
 
@@ -25,15 +25,12 @@ const Banner = () => {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
        // navigation={true}
-        modules={[Autoplay, Pagination,]}
+        modules={[Autoplay,]}
         className="mySwiper"
       >
         <SwiperSlide className='cursor-pointer'>
-          <div className="container md:pt-20 md:pb-10">
+          <div className="container md:pt-20 md:pb-16">
              {/*:::::::::::::::::::::::::::::::::::: */}
 
             <div className="grid grid-cols-2">
@@ -42,7 +39,7 @@ const Banner = () => {
                 <h1 className='text-8xl font-bold py-4'>
                   Alowishus Delicious Coffee
                 </h1>
-                <div className="absolute top-56 mt-1 right-32">
+                <div className="absolute top-56 mt-1 right-56">
                 <Image alt='coffee-mark' width={80} height={80} src='/coffee/cafe.png' />
                 </div>
 
