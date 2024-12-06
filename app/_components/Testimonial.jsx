@@ -18,7 +18,7 @@ import Image from 'next/image';
 const Testimonial = () => {
   return (
     <>
-      <div className="container py-10">
+      <div className="container md:py-20">
         {/******************************* */}
         <div className="grid grid-cols-6 text-center md:py-10">
           <div className="col-start-2 col-span-4">
@@ -59,7 +59,7 @@ const Testimonial = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="rounded-md bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-7">
+            <div className="rounded-md bg-white dark:bg-gray-800 shadow-md duration-500 md:m-7 cursor-pointer hover:scale-105 transition-all">
               <div className="bg-gray-200">
                 <Image
                   src="/coffee/girl1.png"
@@ -93,7 +93,7 @@ const Testimonial = () => {
           {/************************************** */}
 
           <SwiperSlide>
-            <div className="rounded-md bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-7">
+            <div className="rounded-md bg-white dark:bg-gray-800 shadow-md duration-500 md:m-7 cursor-pointer hover:scale-105 transition-all">
               <div className="bg-gray-200">
                 <Image
                   src="/coffee/girl1.png"
@@ -127,7 +127,7 @@ const Testimonial = () => {
           {/************************************** */}
 
           <SwiperSlide>
-            <div className="rounded-md bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-7">
+            <div className="rounded-md bg-white dark:bg-gray-800 shadow-md duration-500 md:m-7 cursor-pointer hover:scale-105 transition-all">
               <div className="bg-gray-200">
                 <Image
                   src="/coffee/girl1.png"
@@ -161,7 +161,7 @@ const Testimonial = () => {
           {/************************************ */}
 
           <SwiperSlide>
-            <div className="rounded-md bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-7">
+            <div className="rounded-md bg-white dark:bg-gray-800 shadow-md duration-500 md:m-7 cursor-pointer hover:scale-105 transition-all">
               <div className="bg-gray-200">
                 <Image
                   src="/coffee/girl1.png"
